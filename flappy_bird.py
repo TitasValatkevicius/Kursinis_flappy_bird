@@ -110,7 +110,7 @@ class Game:
         self.window = pygame.display.set_mode((GAME_WIDTH, GAME_HEIGHT))
         pygame.display.set_caption("Flappy Bird")
         self.clock = pygame.time.Clock()
-        self.font = pygame.font.SysFont("Comic Sans MS", 32)
+        self.font = pygame.font.SysFont("Comic Sans MS", 24)
 
         self.background_image = pygame.image.load(
             "assets/flappybirdbg.png"
